@@ -1,0 +1,21 @@
+:root {
+  --dark-element-color: #2b3945;
+  --dark-background-color: #202c37;
+  --dark-text-color: #ffffff;
+  --light-text-color: #111517;
+  --light-input-color: #858585;
+  --light-background-color: #fafafa;
+  --light-element-color: #fafafa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
