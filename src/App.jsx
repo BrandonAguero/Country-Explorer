@@ -1,4 +1,4 @@
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import "./App.css";
 import { useEffect } from "react";
 import { getAllCountriesThunk } from "./store/slices/allCountries.slice.js";
