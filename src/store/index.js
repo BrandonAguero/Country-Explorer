@@ -1,5 +1,8 @@
-const { configureStore } = require("@reduxjs/toolkit");
+import { configureStore } from "@reduxjs/toolkit";
+import allCountries from "./slices/allCountries.slice.js";
 
 export default configureStore({
-  reducer: {},
+  reducer: {
+    allCountries,
+  },
 });
